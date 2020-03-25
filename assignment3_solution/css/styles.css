@@ -1,0 +1,70 @@
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+#brand-div {
+  height: auto;
+  background-color: lightblue;
+}
+
+#brand-header {
+  color: black;
+}
+
+#collapsable-nav {
+  padding-top: 0;
+}
+
+#nav-list {
+  margin-top: 0;
+}
+
+#nav-list li {
+  text-align: center;
+  font-size: 1.2em;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#menu-header-div {
+  margin-bottom: 20px;
+}
+
+#chicken-row {
+  background-color: gray;
+  color: black;
+}
+
+#chicken-header {
+  text-align: center;
+}
+
+#chicken-text {
+  height: auto;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  #chicken-row {
+    margin: 2%;
+  }
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: white;
+  }
+
+  #chicken-row {
+    margin: 10%;
+  }
+}
